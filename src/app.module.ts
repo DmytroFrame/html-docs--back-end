@@ -7,7 +7,7 @@ import { HtmlTagsModule } from './html-tags/html-tags.module';
   imports: [
     HtmlTagsModule,
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', '..', 'front-end/build'),
+      rootPath: join(__dirname, '..', 'public'),
       exclude: ['/api*'],
     })
   ],
